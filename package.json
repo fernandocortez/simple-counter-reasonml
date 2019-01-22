@@ -1,0 +1,28 @@
+{
+  "name": "simple-counter-reasonml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple counter written in ReasonML",
+  "scripts": {
+    "clean": "rimraf dist",
+    "predev": "npm run clean",
+    "dev": "parcel src/index.html",
+    "prebuild": "npm run clean",
+    "build": "parcel build src/index.html"
+  },
+  "author": {
+    "name": "Fernando Cortez"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "~16.7.0",
+    "react-dom": "~16.7.0",
+    "reason-react": "~0.5.0"
+  },
+  "devDependencies": {
+    "bs-platform": "~4.0.0",
+    "bsb-js": "~1.1.0",
+    "parcel-bundler": "~1.11.0",
+    "rimraf": "~2.6.0"
+  }
+}
